@@ -158,7 +158,7 @@ lalu tekan `yes`
 
 - untuk melihat pesan yang sudah terenskripsi ` nano mail.txt.asc ` 
 
-- ` mkdir attach '
+- ` mkdir attach `
 
 - Lakukan ` chown -R www-data:www-data/var/www/html/mail/attach  ` dan ` chmod 755 -R /var/www/html/mail/attach ` 
 
@@ -197,9 +197,9 @@ lalu tekan `yes`
 - Lalu cek ke penerima apakah sudah berhasil 
 
 ***Konfigurasi Spam Secara Otomatis***
-- ` nano /etc/mail/spamassassin/local.cf ` untuk mengkonfigurasi  ` header ataupun kata-kata yng mengandung spam `
+- ` nano /etc/mail/spamassassin/local.cf ` untuk mengkonfigurasi  ` header ataupun kata-kata yng mengandung promosi `
 
 - ` systemctl restart spamassassin `  ` systemctl restart apache2 ` ` systemctl restart postfix `
 
-- Selanjutnya login kembali pada ` SquireelMail ` lalu coba untuk mengirimkan pesan dengan kata yang mengandung ` spam ` 
+- Selanjutnya login kembali pada ` SquireelMail ` lalu coba untuk mengirimkan pesan dengan kata yang mengandung ` promosi ` 
  
